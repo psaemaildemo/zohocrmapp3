@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Variable Expression</h2>
+	<div>
+		Id : <strong th:text="${student.id}"> </strong>
+		Name : <strong th:text="${student.name}"> </strong>
+		City : <strong th:text="${student.city}"> </strong>
+		Email : <strong th:text="${student.email}"> </strong>
+		
+	</div>
+	
+	<p th:text="${user}">
+		
+	</p>
+</body>
+</html>
